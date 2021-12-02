@@ -1,0 +1,20 @@
+class One{
+	String userID = "Nireekshan";
+	String password ="raju123"
+	
+	
+	public void login(){
+		System.out.println("login is successfull");
+	
+	}
+}
+
+
+
+	class Two extends One{
+
+		public void login(){
+		System.out.println(userID+"login is successfull");
+		}
+		
+	}
